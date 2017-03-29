@@ -15,7 +15,7 @@ set wildmenu
 " SNIPPETS:
 " HTML template
 nnoremap ,html :-1read $HOME/Templates/skeleton.html<CR>3jwf>a
-nnoremap ,py :-1read $HOME/Templates/skeleton.py<CR>5ji<Space><Space>
+nnoremap ,py :-1read $HOME/Templates/skeleton.py<CR>7ji<Tab>
 nnoremap ,cpp :-1read $HOME/Templates/skeleton.cpp<CR>5ji<Tab>
 
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
