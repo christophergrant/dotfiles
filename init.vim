@@ -14,7 +14,7 @@ set wildmenu
 
 " SNIPPETS:
 " HTML template
-nnoremap ,html :-1read $HOME/Templates/skeleton.html<CR>3jwf>a
+nnoremap ,html :-1read $HOME/Templates/skeleton.html<CR>4jwf>a
 nnoremap ,py :-1read $HOME/Templates/skeleton.py<CR>7ji<Tab>
 nnoremap ,cpp :-1read $HOME/Templates/skeleton.cpp<CR>5ji<Tab>
 
