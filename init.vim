@@ -71,8 +71,8 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 set number
 set relativenumber
 
-set tabstop=8
-set expandtab
-set shiftwidth=4
-set softtabstop=4
+ set tabstop=8
+ set expandtab
+ set shiftwidth=4
+ set softtabstop=4
 filetype indent plugin on
