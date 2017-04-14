@@ -8,6 +8,7 @@ alias vim=nvim
 alias emacs="emacs -nw"
 alias vrc="nvim ~/.config/nvim/init.vim"
 alias brc="nvim ~/.bashrc"
+alias pissh="ssh pi@chrisberrypi"
 alias v=nvim
 
 #shell
@@ -23,3 +24,7 @@ alias wtr="curl wttr.in/fullerton"
 
 
 # === end of aliases =========================================================
+
+export PATH=$PATH:~/.local/bin/
+
+export PATH="$HOME/.cargo/bin:$PATH"

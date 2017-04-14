@@ -15,7 +15,7 @@ set wildmenu
 " SNIPPETS:
 " HTML template
 nnoremap ,html :-1read $HOME/Templates/skeleton.html<CR>4jwf>a
-nnoremap ,py :-1read $HOME/Templates/skeleton.py<CR>7ji<Tab>
+nnoremap ,py :-1read $HOME/Templates/skeleton.py<CR>6ji<Tab>
 nnoremap ,cpp :-1read $HOME/Templates/skeleton.cpp<CR>5ji<Tab>
 
 " Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
@@ -28,6 +28,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
+Plug 'davidhalter/jedi-vim'
 
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-airline'
@@ -66,6 +67,9 @@ let g:netrw_liststyle=3     " tree view
 let g:netrw_list_hide=netrw_gitignore#Hide()
 " hide dotfiles by default (this is the string toggled by netrw-gh)
 let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
+
+" mappings
+map <F7> :setlocal spell! spelllang=en_us<CR>
 
 " Hybrid numberline
 set number
