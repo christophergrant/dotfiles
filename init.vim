@@ -28,7 +28,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
-Plug 'davidhalter/jedi-vim'
 
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-airline'

@@ -8,7 +8,6 @@ alias vim=nvim
 alias emacs="emacs -nw"
 alias vrc="nvim ~/.config/nvim/init.vim"
 alias brc="nvim ~/.bashrc"
-alias pissh="ssh pi@chrisberrypi"
 alias v=nvim
 
 #shell
@@ -21,6 +20,8 @@ alias repl="lein repl"
 
 #misc
 alias wtr="curl wttr.in/fullerton"
+alias pissh="ssh pi@chrisberrypi"
+alias home_tunnel="ssh"
 
 
 # === end of aliases =========================================================
