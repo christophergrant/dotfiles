@@ -29,5 +29,5 @@ alias away_ssh="ssh c@172.249.120.182 -p 1993"
 # === end of aliases =========================================================
 
 export PATH=$PATH:~/.local/bin/
-
+export PATH=/home/c/anaconda3/bin:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
