@@ -24,6 +24,8 @@ alias pissh="ssh pi@chrisberrypi"
 alias home_ssh="ssh c@192.168.1.123"
 alias away_ssh="ssh c@172.249.120.182 -p 1993"
 
+#git
+alias gpom="git push origin master"
 
 
 # === end of aliases =========================================================
