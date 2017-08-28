@@ -1,6 +1,7 @@
 " enter the current era
 set nocompatible
 
+
 set encoding=utf-8
 
 " enable plugins (for netrw)
@@ -25,13 +26,21 @@ call plug#begin('~/.vim/plugged')
 Plug 'lervag/vimtex'
 Plug 'vimwiki/vimwiki'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
+Plug 'Konfekt/Fastfold'
+Plug 'Shougo/denite.nvim'
+Plug 'Shougo/deoplete.nvim'
+Plug 'benmills/vimux'
+Plug 'lifepillar/vim-solarized8'
+
 
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-airline'
 call plug#end()
+
 
 " Appearance
 let g:airline_theme='cool'
@@ -69,6 +78,7 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
 " mappings
 map <F7> :setlocal spell! spelllang=en_us<CR>
+map <C-b>vp :VimuxPromptCommand<CR>
 
 " Hybrid numberline
 set number
@@ -79,3 +89,4 @@ set relativenumber
  set shiftwidth=4
  set softtabstop=4
 filetype indent plugin on
+
