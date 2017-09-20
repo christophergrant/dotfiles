@@ -33,3 +33,4 @@ alias gpom="git push origin master"
 export PATH=$PATH:~/.local/bin/
 #export PATH=/home/c/anaconda3/bin:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/bin/:$PATH"

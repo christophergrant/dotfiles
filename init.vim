@@ -84,6 +84,10 @@ map <C-b>vp :VimuxPromptCommand<CR>
 set number
 set relativenumber
 
+"case while searching
+set ignorecase
+set smartcase
+
  set tabstop=8
  set expandtab
  set shiftwidth=4
