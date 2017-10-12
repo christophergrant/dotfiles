@@ -23,8 +23,8 @@ alias wtr="curl wttr.in/fullerton"
 alias pissh="ssh pi@chrisberrypi"
 alias home_ssh="ssh c@192.168.1.123"
 alias away_ssh="ssh c@172.249.120.182 -p 1993"
-alias acm_copy_here="rsync -avz --exclude '.git' -e ssh acm@shell.ecs.fullerton.edu:/home/titan0/clubs/acm/homepage /home/c/randomshit/acm/acmwebsite/"
-alias acm_copy_there="rsync -avz --exclude '.git' /home/c/randomshit/acm/acmwebsite/ -e ssh acm@shell.ecs.fullerton.edu:/home/titan0/clubs/acm/homepage"
+alias acm_copy_here="rsync -avz --exclude '.git' -e ssh acm@shell.ecs.fullerton.edu:/home/titan0/clubs/acm/homepage/* /home/c/randomshit/acm/acmwebsite/"
+alias acm_copy_there="rsync -avz --exclude '.git' /home/c/randomshit/acm/acmwebsite/* -e ssh acm@shell.ecs.fullerton.edu:/home/titan0/clubs/acm/homepage"
 
 #git
 alias gpom="git push origin master"
