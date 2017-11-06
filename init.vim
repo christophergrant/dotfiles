@@ -6,6 +6,8 @@ set encoding=utf-8
 
 " enable plugins (for netrw)
 filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 
 " provides tab-completion for all file-related stuff
 set path+=** " search through every subdir of every subdir
@@ -31,10 +33,24 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
 Plug 'Konfekt/Fastfold'
-Plug 'Shougo/denite.nvim'
-Plug 'Shougo/deoplete.nvim'
-Plug 'benmills/vimux'
+
+" Plug 'benmills/vimux'
 Plug 'lifepillar/vim-solarized8'
+Plug 'roxma/nvim-completion-manager'
+
+" Clojure
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-salve'
+Plug 'luochen1990/rainbow'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
+Plug 'guns/vim-sexp'
+Plug 'clojure-vim/async-clj-omni'
+
+
+
+
+
+
 
 
 Plug 'vim-airline/vim-airline-themes'
