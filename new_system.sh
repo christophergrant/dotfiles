@@ -3,7 +3,6 @@
 sudo eopkg it neovim stow zathura tmux
 
 mkdir ~/repos
-cd ~/repos/dotfiles
 
 rm ~/.bashrc ~/.bash_profile ~/.profile
 stow -t ~ bash
@@ -13,3 +12,8 @@ stow -t ~/.config/nvim/ neovim
 stow -t ~ zathura
 mkdir ~/Templates
 stow -t ~/Templates/ templates
+
+
+# neovim setup
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
